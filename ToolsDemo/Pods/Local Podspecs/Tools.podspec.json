@@ -1,0 +1,35 @@
+{
+  "name": "Tools",
+  "version": "0.0.1",
+  "summary": "Tools",
+  "description": "基础工具类组件",
+  "homepage": "https://github.com/CalierSee/Tools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "景彦铭": "436005247@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/CalierSee/Tools.git"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "ToolsLib": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}
